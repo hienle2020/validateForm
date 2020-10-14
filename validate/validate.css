@@ -1,0 +1,23 @@
+.relative{
+    position: relative;
+}
+.c-error{
+	position: absolute;
+	top: 100%;
+	padding:  10px 15px 10px 10px;
+	transform: translateY(10px);
+	display: inline-block;
+	left: 15%;
+	z-index: 999;
+	border-radius: 4px;
+	letter-spacing: 1.1px;
+	line-height: 1.2
+}
+.c-error i{
+	position: absolute;
+	top:  -10px;
+	left: 10px;
+	border-bottom: solid 10px;
+	border-right: solid 8px transparent;
+	border-left: solid 8px transparent; 
+}

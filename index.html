@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/validate.css">
+
+
+</head>
+<body>
+	<div class="p-contact-form py-16 lg:py-20">
+				<div class="container mx-auto px-4">
+					<h3 class="c-title text-center text-3xl lg:text-4xl font-bold mb-6 js-fadeIn">Get in touch</h3>
+					<form class="c-form" id="js-intouch">
+						<div class="mb-4 js-fadeIn relative">
+							<input type="text" class="c-input jsName" placeholder="Name *">
+						</div>
+						<div class="mb-4 js-fadeIn relative">
+							<input type="text" class="c-input jsEmail" placeholder="Email *">
+							<span class="error" aria-live="polite"></span>
+						</div>
+						<div class="mb-4 js-fadeIn relative">
+							<textarea class="c-textArea jsTextBox" rows="9" placeholder="Message *" name="message" id="jsFormMessage"></textarea>
+						</div>
+						<div class="mb-4 js-fadeIn text-right">
+							<button class="c-btn focus:outline-none rounded-md px-10 lg:px-12 py-2 bg-teal-400 uppercase text-white rounded-md" id="js-send">Send</button>
+						</div>
+					</form>
+				</div>
+			</div>
+
+	 <script
+	src="https://code.jquery.com/jquery-3.5.1.js"
+	integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+	crossorigin="anonymous"></script>
+		<script src="validate/validate.js"></script>
+	 <script src="js/main.js"></script>
+</body>
+</html>
